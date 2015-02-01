@@ -157,7 +157,7 @@ AhoyEmail.track open: false
 
 ## Events
 
-Subscribe to open and click events. Create an initializer `config/initializers/ahoy_email.rb` with:
+Subscribe to open and click events. You will need to install [Ahoy](https://github.com/ankane/ahoy). Create an initializer `config/initializers/ahoy_email.rb` with:
 
 ```ruby
 class EmailSubscriber
